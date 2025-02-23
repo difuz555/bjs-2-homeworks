@@ -9,9 +9,6 @@ function getArrayParams(...arr) {
 }
 
 function summElementsWorker(...arr) {
-  if (arr.length === 0) {
-    return 0;
-  } 
   let sum =0;
   for (let i = 0; i < arr.length; i++) {
     sum += arr[i];
@@ -27,9 +24,6 @@ function differenceMaxMinWorker(...arr) {
 }
 
 function differenceEvenOddWorker(...arr) {
-  if (arr.length === 0) {
-    return 0;
-  } 
   let sumEvenElement = 0;
   let sumOddElement = 0;
   for (let num of arr) {
